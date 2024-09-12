@@ -13,6 +13,8 @@ the use of position absolute and position relative.
 
 \*Implement view for mobile screens
 
+## GitHub Pages - https://ibeo-gh.github.io/Chick_fil_A/
+
 ## Screenshot of how it looks
 
 <img src="/screenshots/screenshot1.png" alt="image" />
