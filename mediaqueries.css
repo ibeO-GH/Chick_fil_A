@@ -1,19 +1,36 @@
 /* Responsive design */
 @media (max-width: 768px) {
+  .nav-bar {
+    padding: 10px;
+  }
+
   .nav-content {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nav-item.menu-links {
-    display: none; /* Hide menu links on small screens */
-  }
-
-  .nav-item.sign-in,
-  .nav-item.order-now {
+    display: none;
     width: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
     text-align: center;
-    margin: 5px 0;
+    /* gap: 2rem; */
+  }
+
+  .nav-content.active {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav-item a {
+    font-size: 0.875rem; /* Smaller font size on very small screens */
+  }
+
+  .nav-item.sign-in a,
+  .nav-item.order-now a {
+    padding: 10px;
+    font-size: 0.875rem;
   }
 
   .section2 {
